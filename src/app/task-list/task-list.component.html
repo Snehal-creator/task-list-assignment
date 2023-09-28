@@ -1,0 +1,11 @@
+<section class="main">
+<div  style="text-align: center;">
+    <h1>Task List</h1>
+  </div> 
+    <div class="list" *ngFor="let data of dataList let i = index" [class.stroke]="data.completed">
+        <div> 
+      <label nz-checkbox [(ngModel)]="data.completed" class="capitalize">&nbsp;&nbsp;{{ data.title }}</label>
+    </div> 
+  </div>
+</section>
+ 

@@ -1,0 +1,20 @@
+.stroke{
+    text-decoration: line-through !important;
+  }
+
+  .capitalize {
+    text-transform: capitalize;    
+ }
+ .list{
+    padding: 10px;
+    font-size: 20px;
+ }
+
+ *{
+    font-family: cursive;
+    color: white;
+ }
+ .main{
+    background-color: pink;
+   
+ }
